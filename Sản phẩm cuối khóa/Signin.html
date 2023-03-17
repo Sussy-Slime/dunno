@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+       integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+       crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Signin.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="app">
+    <div class="header">
+      <ul class="header__nav">
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-item--link">SIGN IN</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-item--link">HOME</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-item--link">ABOUT US</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-item--link">POKEMON</a>
+        </li>
+      </ul>
+      <div class="header__email">
+        <h3 id="Email"></h3>
+      </div>
+    </div>
+  </div>
+
+    <main class="form-signin">
+        <form>
+          <img class="logo" src="https://th.bing.com/th/id/OIP.R9tpjeR7P_mrjRr3K1IpHgHaHa?pid=ImgDet&rs=1" 
+          alt="" 
+          width="50%" 
+          height="50%">
+          <h1 class="note">Please sign in</h1>
+      
+          <div class="form-floating">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email address" value="">
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="inputName" placeholder="Nick Name" value="">
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password" value="">
+          </div>
+      
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div class="but">
+          <a class="signIn" href="Home.html">Sign In</a>
+        </form>
+      </main>
+
+      <script src="Signin.js"></script>
+</body>
+</html>
